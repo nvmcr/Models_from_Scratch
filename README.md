@@ -14,3 +14,13 @@ provided below in the variable idx to class.
 The test set will include both a set of images and a 15-dimensional featurization of those images in exactly the same form as the features that were given for the train and validation set. It is available in the same link. 
 ## Scratch Model
 Models like Logistc Regression, Decision Trees, Random Forests and K-Nearest Neighbors are implemented from scratch in the notebook. Along with the scratch models, bunch of other models were also implemented. 
+## Usage
+For a quick glance, click on the `fruit_classification.ipynb` which has all the code and outputs with explanations. To reproduce follow the below usage steps:
+1. Open your terminal
+2. Clone the repoistory using `git clone git@github.com:nvmcr/Models_from_Scratch.git`.
+3. This will create a repository with the name `Model_from_Scratch`.
+4. Enter the present repo using `cd Model_from_Scratch/`.
+5. Set up a new virtual environment with all necessary packages and dependencies using `conda env create -f environment.yml`
+6. Activate the virtual environment with `conda activate ee-511`.
+7. Open the notebook, explore and run.
+8. You can deactivate the virtual environment later using `conda deactivate`
